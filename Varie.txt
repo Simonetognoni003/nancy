@@ -1,0 +1,16 @@
+########################################################
+#                VARIE			               #
+########################################################
+ 
+D: Quali parametri devono essere configurati all'inizio?
+
+R: per evitare di correggere i dati successivamente, specificare i seguenti parametri durante l’installazione:
+
+Aliquote IVA nelle schede dei prodotti in elenco giacenze.
+Tipologie di centri di produzione e tabella delle preparazioni nelle impostazioni punto vendita.
+Prezzo Articolo
+Le ricette possono essere inserite successivamente; non dimenticare comunque di specificare la data d’inizio prima di effettuare vendite.
+
+D: Cosa accade se partiamo ma i centri di produzione non sono stati specificati correttamente?
+
+R: è necessario modificare i documenti automatici di vendite. Ogni produzione deve possedere il documento corrispondente. Per esempio, tutti gli articoli sono stati prodotti dalla cucina, ma in realtà alcuni sono stati prodotti dal bar. Copiare gli ordini eseguiti dalla cucina, specificando il bar come centro di produzione e quindi rimuovere quelli prodotti dalla cucina, quindi rimuovere quelli prodotti dal bar dalla cucina. Per maggiori dettagli si veda il capitolo Registrazione delle vendite.
