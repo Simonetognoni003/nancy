@@ -1,0 +1,132 @@
+########################################################
+#                FAQ SYRVE                             #
+########################################################
+**********SYRVE**********
+
+D: Il cassiere (o il cameriere) ha gestito correttamente la restituzione di tutto il contante?
+
+R: tramite il tab Vendite al dettaglio > Turni di cassa è possibile verificare le entrate precedenti per confronto. Per maggiori dettagli, si veda il capitolo Accettazione turno di cassa.
+
+D: Quante rimozioni sospette di articoli sono avvenute nel turno del giorno precedente?
+
+R: è possibile controllare questo dato tramite il Registro degli eventi (Vendite al dettaglio) e il Report degli ordini (Vendite al dettaglio > Turni di cassa). Per maggiori dettagli si prenda visione dei capitoli Registro degli eventi e Report documenti fiscali.
+
+D: Dove posso verificare la spesa media (dei clienti) mensile?
+
+R: selezionare Report > Report spesa media. Per maggiori dettagli, vedere il capitolo Report spesa media.
+
+D: Come posso verificare quale cameriere effettua le migliori vendite?
+
+R: controllare le entrate nel Report cameriere. Per aprire il report, selezionare il turno richiesto nella sezione cliccando con il tasto destro Vendite al dettaglio > Turni di cassa (o cliccare Azioni) e selezionare Report > Fatturato per cameriere.
+
+D: Come posso sapere qual'è l'articolo più venduto?
+
+R: selezionare Report > Report vendite per periodo. Specificare l’intervallo temporale, cliccare Aggiorna e ordinare i dati per la colonna Quantità. Per maggiori dettagli, si veda il capitolo Report delle vendite per periodo.
+
+Magazzino 
+D: Come aggiungo al sistema un nuovo articolo al menu?
+
+R: aprire l’elenco giacenze, aggiungere il nuovo articolo e configurare tutti i parametri nelle schede (tab) corrispondenti. Per maggiori informazioni, prendere visione del capitolo Articolo elenco giacenze.
+
+D: Come aggiungo un nuovo prodotto?
+
+R: aprire l’elenco giacenze e aggiungere un nuovo prodotto, configurando tutti i parametri nelle schede corrispondenti. Per maggiori informazioni, prendere visione del capitolo Articolo elenco giacenze.
+
+D: Come aggiungo un modificatore e lo assegno a un articolo del menu?
+
+R: per prima cosa si deve creare il modificatore come fosse un nuovo articolo dell’elenco giacenze di magazzino, successivamente si assegna tale modificatore all’articolo appropriato del menu. Per maggiori informazioni, prendere visione dei capitoli Articolo elenco giacenze e Modificatori.
+
+D: Come posso configurare - nel sistema - una promozione "Happy Hour"?
+
+R: a questo scopo si possono utilizzare i necessari modificatori di gruppo. In merito a ciò, si prenda visione del capitolo Configurare un gruppo di articoli.
+
+D: Come aggiungo la ricetta di un piatto?
+
+R: utilizzare il tab Ricette nella scheda dell’articolo, presente nell’elenco giacenze; si veda il capitolo Ricette.
+
+D: Come configuro il prezzo di un articolo?
+
+R: il prezzo di vendita di un articolo può essere configurato nel tab Proprietà principali della scheda nell’elenco giacenze o nell’aggiornamento prezzi.
+
+D: Come posso calcolare i valori nutrizionali di una pietanza?
+
+R: è necessario specificare tale valore per ogni ingrediente che compone il piatto. Successivamente si deve specificare il metodo di preparazione nel tab Valori nutrizionali nella scheda del piatto e cliccare Calcola. Per maggiori dettagli si prenda visione del capitolo Valori nutrizionali.
+
+D: A cosa serve un aggiornamento prezzi?
+
+R: l’aggiornamento prezzi è utilizzato per configurare i prezzi nel punto vendita, per mettere gli articoli e i prodotti in vendita e per sospenderli dalle vendite.
+
+D: Abbiamo appena iniziato ad usare Syrve. Come possiamo inserire un elenco giacenze di apertura?
+
+R: si può usare la funzionalità fattura acquisto oppure un documento di riconciliazione d’inventario. Tuttavia, se si desidera che i prodotti e gli articoli abbiano anche il prezzo di acquisto, si utilizzi allora la fattura acquisto.
+
+D: Non abbiamo specificato le aliquote IVA per gli articoli quando abbiamo compilato l'elenco delle giacenze di magazzino. Possiamo farlo ora?
+
+R: per iniziare, specificare l’aliquota IVA predefinita nel campo IVA delle impostazioni del gruppo dell’elenco giacenze. Successivamente utilizzare la funzione di modifica dei gruppi per assegnare l’aliquota a tutti gli elementi del gruppo. Quando si aggiunge un nuovo articolo alle giacenze del gruppo, l’aliquota IVA viene assegnata automaticamente.
+
+D: Come posso registrare in entrata una fattura d'acquisto?
+
+R: per ogni dettaglio in merito, prendere accurata visione del capitolo Fattura acquisto.
+
+D: Come sposto un articolo da un magazzino all'altro?
+
+R: utilizzando un documento di Trasferimento interno.
+
+D: Come posso trasferire dei beni (materia prima)?
+
+R: il trasferimento di merci e beni può essere effettuato tramite un documento di Storno.
+
+D: Come genero una registrazione di vendita?
+
+R: un ordine è generato automaticamente tramite i dati di vendita registrati in SyrvePOS. Per maggiori dettagli si prenda visione del capitolo Registrazione delle vendite.
+
+D: Oggi, alle 6 del mattino, abbiamo effettuato la riconciliazione dell'inventario in cucina. Come inserire i risultati correttamente?
+
+R: creare un documento di riconciliazione dell’inventario alla data precedente la riconciliazione del saldo scorte (inventario). Per esempio, se la riconciliazione è stata effettuata il 15 Settembre alle 6 di mattina, nel documento specificare le 23:59 del 14 Settembre. Per maggiori informazioni in merito, si prenda visione del capitolo Riconciliazione dell’inventario.
+
+D: Come posso sapere quanta materia prima ho disponibile in magazzino?
+
+R: in Office selezionare Report > Saldo giacenze. Per dettagli: Saldo giacenze.
+
+D: Due volte al mese - il 1° e il 15° giorno del mese prima dell'apertura - effettuo la riconciliazione dell'inventario. Come posso conoscere il costo effettivo?
+
+R: se la riconciliazione dell’inventario è effettuata prima dell’apertura dell’attività, dovrebbe essere registrata alla data del giorno precedente (in questo caso al 31 e al 14 di ogni mese, alle 23:59). Aprire quindi il Bilancio dettagliato del fatturato, specificando il periodo dall’1 al 14 e quindi cliccando Aggiorna. Aggiungere Saldo aperto all’importo delle Ricevute e sottrarre il Saldo di chiusura. Prima di lanciare il report, inserire tutte le fatture d’acquisto non ancora inserite.
+
+ D: Cosa dovrei fare se ottengo un saldo negativo delle giacenze di magazzino?
+
+R: la ragione per la quale si può ottenere un saldo negativo delle giacenze, risiede negli errori nella compilazione delle ricette, errata impostazione dei centri di produzione oppure errori commessi durante il processo di registrazione in ingresso degli acquisti. Per maggiori dettagli, leggere il capitolo Aggiustamento del saldo negativo di giacenze.
+
+Staff (Personale) 
+D: Come faccio ad aggiungere un nuovo membro dello staff?
+
+R: è necessario registrarlo nel sistema, fornirgli i permessi e configurare le credenziali di accesso al sistema: numero di card e/o PIN (per l’accesso a SyrvePOS) oppure username e password per l’accesso a Office. Per maggiori dettagli, prendere visione del capitolo Registrazione dello staff.
+
+D: Posso effettuare il calcolo della busta paga di un dipendente?
+
+R: il salario può essere calcolato in base a diversi parametri: paga base, indennità di turno, ore lavorate, bonus, penalità e così via. Per dettagli: Gestione del personale.
+
+D: Come configurare la pianificazione del lavoro per i dipendenti?
+
+R: per configurare la pianificazione del lavoro (e turni), usare Personale > Pianificazione. Per maggiori informazioni, si veda il capitolo Pianificazione.
+
+D: Come posso sapere chi è arrivato in ritardo al lavoro?
+
+R: per fare in modo che il sistema registri i ritardi, configurare la pianificazione dei turni di lavoro dello staff. Se qualcuno timbra in ritardo, la cella corrispondente nel Registro delle presenze, sarà evidenziata in rosso.
+
+D: Come posso venire a conoscenza di eventuali bonus o penalità accreditate?
+
+R: l’informazione può essere reperita attraverso i report Penalità accreditate e Bonus accreditati.
+
+ D: Che succede se un dipendente dimentica di timbrare in entrata o in uscita?
+
+R: alla prima possibilità, il lavoratore deve comunque timbrare. Il manager deve poi modificare nel Registro delle presenze le ore effettivamente lavorate.
+
+ D: Come posso tenere traccia dei pasti gratuiti allo staff?
+
+R: se si offrono pasti gratuiti o scontati allo staff, configurare una tipologia speciale di pagamento (per esempio “pasti staff”) dove addebitare tali spese. Per ulteriori dettagli, leggere il capitolo Omaggi. Diversamente, utilizzare il tipo di pagamento “a credito”, così come il report del Personale.
+
+
+
+**********YELLGO**********
+**********PLATEFORM**********
+********************
